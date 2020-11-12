@@ -1,1 +1,10 @@
-<p>display works!</p>
+<h2>Display</h2>
+
+
+<!--TODO: list with timers that can grow-->
+<h3>Different timers</h3>
+<ul class="timers">
+    <li *ngFor="let timer of timers">
+        <span>{{timer.value}}</span>
+    </li>
+</ul>
